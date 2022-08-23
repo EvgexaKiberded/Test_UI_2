@@ -1,0 +1,78 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Release-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "test_UI_2_Andreyman_Evgeny",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "test_UI_2_Andreyman_Evgeny::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_UI_2_Andreyman_Evgeny-Release-b10e7c8feddfcc3cb59e.json",
+					"name" : "test_UI_2_Andreyman_Evgeny",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_UI_2_Andreyman_Evgeny_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_UI_2_Andreyman_Evgeny_autogen-Release-49f0bd58c50d0334c83c.json",
+					"name" : "test_UI_2_Andreyman_Evgeny_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_UI_2_Andreyman_Evgeny_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_UI_2_Andreyman_Evgeny_autogen_timestamp_deps-Release-391859c8a86d98c4378e.json",
+					"name" : "test_UI_2_Andreyman_Evgeny_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Qt/Practice/test_UI_2_Andreyman_Evgeny/build",
+		"source" : "C:/Qt/Practice/test_UI_2_Andreyman_Evgeny"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

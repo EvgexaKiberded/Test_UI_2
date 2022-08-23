@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>UDPClient</class>
+ <widget class="QMainWindow" name="UDPClient">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>UDPClient</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout_4">
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_top_panel" stretch="1,0,3,2">
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout_labels">
+        <item>
+         <widget class="QLabel" name="label_loc_port">
+          <property name="text">
+           <string>локальный порт</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_remoted_port">
+          <property name="text">
+           <string>удаленный порт</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout_lineEdits">
+        <item>
+         <widget class="QLineEdit" name="lineEdit_loc_port">
+          <property name="text">
+           <string>2424</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="lineEdit_remoted_port">
+          <property name="text">
+           <string>2525</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <spacer name="horizontalSpacer">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>168</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout_buttons">
+        <item>
+         <widget class="QPushButton" name="pB_connect">
+          <property name="text">
+           <string>Подключиться</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="pB_disconnect">
+          <property name="text">
+           <string>Отключиться</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <widget class="QTextEdit" name="textEdit"/>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_bot_panel">
+      <item>
+       <widget class="QLineEdit" name="lineEdit_message"/>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pB_send_data">
+        <property name="text">
+         <string>Отправить</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

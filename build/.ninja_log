@@ -1,0 +1,10 @@
+# ninja log v5
+0	804	6829830142119928	test_UI_2_Andreyman_Evgeny_autogen/timestamp	c8a58398e394f6ad
+0	804	6829830142119928	test_UI_2_Andreyman_Evgeny_autogen/mocs_compilation.cpp	c8a58398e394f6ad
+0	804	6829830142119928	C:/Qt/Practice/test_UI_2_Andreyman_Evgeny/build/test_UI_2_Andreyman_Evgeny_autogen/timestamp	c8a58398e394f6ad
+0	804	6829830142119928	C:/Qt/Practice/test_UI_2_Andreyman_Evgeny/build/test_UI_2_Andreyman_Evgeny_autogen/mocs_compilation.cpp	c8a58398e394f6ad
+808	2496	6829830160564067	CMakeFiles/test_UI_2_Andreyman_Evgeny.dir/main.cpp.obj	ef7fe4235d8bb3d4
+806	2595	6829830161554278	CMakeFiles/test_UI_2_Andreyman_Evgeny.dir/socket.cpp.obj	12a94281186a4f84
+804	2648	6829830162084396	CMakeFiles/test_UI_2_Andreyman_Evgeny.dir/test_UI_2_Andreyman_Evgeny_autogen/mocs_compilation.cpp.obj	6d41fe46b170de6d
+810	2937	6829830164975038	CMakeFiles/test_UI_2_Andreyman_Evgeny.dir/udpclient.cpp.obj	9f2c64b645a8ed1f
+2938	3094	6829830166515387	test_UI_2_Andreyman_Evgeny.exe	bd6252464b13f977
